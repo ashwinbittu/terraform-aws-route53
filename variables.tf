@@ -28,9 +28,6 @@ variable "aws_elb_dns_name" {
 variable "aws_elb_zone_id" {
 }
 
-variable "app_color" {
-}
-
 variable "aws_route53_zone_id" {
 }
 
