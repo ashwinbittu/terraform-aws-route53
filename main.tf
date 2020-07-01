@@ -10,7 +10,6 @@
     environment  = var.app_env
     appname = var.app_name
     csiappid = var.app_csi
-    appcolor = var.app_color
   }
 
 }*/
