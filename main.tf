@@ -9,7 +9,7 @@
     Name = var.aws_route53_zone_name
     environment  = var.app_env
     appname = var.app_name
-    csiappid = var.app_csi
+    appid = var.app_id
   }
 
 }*/
