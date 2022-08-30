@@ -82,6 +82,11 @@ variable "resolver_rule_associations" {
   default     = {}
 }
 
+variable "full_name_override" {
+  type        = bool
+  default     = true
+}
+
 variable "app_env" {
 }
 
