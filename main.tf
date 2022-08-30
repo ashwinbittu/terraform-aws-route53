@@ -28,7 +28,6 @@ resource "aws_route53_zone" "this" {
   )
 }
 
-/*
 
 data "aws_route53_zone" "this" {
   count = var.createzone && (var.zone_id != null || var.zone_name != null) ? 1 : 0
@@ -114,4 +113,4 @@ resource "aws_route53_resolver_rule_association" "this" {
 }
 
 
-*/
+
