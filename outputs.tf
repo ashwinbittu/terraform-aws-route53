@@ -1,3 +1,4 @@
+/*
 output "route53_zone_zone_id" {
   description = "Zone ID of Route53 zone"
   value       = { for k, v in aws_route53_zone.this : k => v.zone_id }
@@ -52,3 +53,5 @@ output "route53_resolver_rule_association_resolver_rule_id" {
   description = "ID of Route53 Resolver rule associations resolver rule"
   value       = { for k, v in aws_route53_resolver_rule_association.this : k => v.resolver_rule_id }
 }
+
+*/
