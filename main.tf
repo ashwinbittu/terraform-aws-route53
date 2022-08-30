@@ -30,7 +30,8 @@ resource "aws_route53_zone" "this" {
 
 
 data "aws_route53_zone" "this" {
-  count = var.createzone && (var.zone_id != null || var.zone_name != null) ? 1 : 0
+  #count = var.createzone && (var.zone_id != null || var.zone_name != null) ? 1 : 0
+  count = 1
 
   zone_id      = var.zone_id
   name         = var.zone_name
